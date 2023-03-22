@@ -1,0 +1,15 @@
+.social-media{
+      display: flex;
+      flex-direction: column;
+}
+.ekak{
+      width: 200px;
+    height: auto;
+}
+.footersection{
+ background-color: rgb(12, 63, 34);
+ color: #ffff;
+}
+.content{
+      padding: 2rem 1rem;
+}
