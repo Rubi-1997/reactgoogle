@@ -8,15 +8,11 @@ import About from './About';
 import usePageTracking from './usePageTracking';
 
 import ReactGA from "react-ga";
- import { createBrowserHistory } from "history";
+
 
 
 function App() {
- const history=createBrowserHistory();
- 
- ReactGA.initialize("<Your-UA-ID-HERE>");
- ReactGA.pageview(history.location.pathname);
-usePageTracking();
+
 
   return (
     <div>
